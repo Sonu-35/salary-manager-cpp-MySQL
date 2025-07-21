@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build mysql project",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-I", "C:\\Users\\Acer\\Downloads\\mysql-connector-c++-9.3.0-winx64\\mysql-connector-c++-9.3.0-winx64\\include",
+        "-L", "C:\\Users\\Acer\\Downloads\\mysql-connector-c++-9.3.0-winx64\\mysql-connector-c++-9.3.0-winx64\\lib64",
+        "main.cpp",
+        "-lmysqlcppconn",
+        "-o", "main.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
