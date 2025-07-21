@@ -2,21 +2,22 @@ The C++ Salary Manager is a console-based application that replicates all functi
 
 Key Features:
 
-Multi-user support with authentication
+1. Multi-user support with authentication
 
-Income and expense transaction tracking
+2. Income and expense transaction tracking
 
-Real-time balance calculations
+3. Real-time balance calculations
 
-Category-based transaction organization
+4. Category-based transaction organization
 
-Date-range financial reports
+5. Date-range financial reports
 
-Secure MySQL database integration
+6. Secure MySQL database integration
 
-Cross-platform compatibility
+7. Cross-platform compatibility
 
-Complete Project Structure
+Complete Project Structure:
+
 Salary-Manager-CPP-MySQL-Project/
 ├── README.md                    # Complete project documentation
 ├── Makefile                     # Build system configuration
